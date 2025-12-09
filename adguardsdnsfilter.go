@@ -18,6 +18,7 @@ import (
 var AdGuardSDNSFilters = []string{
 	"https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
 	"https://adguardteam.github.io/AdguardFilters/MobileFilter/sections/adservers.txt",
+	"https://adguardteam.github.io/AdguardFilters/CyrillicFilters/common-sections/adservers.txt",
 	"https://adguardteam.github.io/AdguardFilters/CyrillicFilters/RussianFilter/sections/adservers_firstparty.txt",
 	"https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Belarusian/sections/filter.txt",
 	"https://adguardteam.github.io/AdguardFilters/CyrillicFilters/Kazakh/sections/filter.txt",
