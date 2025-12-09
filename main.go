@@ -26,7 +26,7 @@ func write(name string, ruleSet *Ruleset) {
 
 	e := json.NewEncoder(f)
 	e.SetEscapeHTML(false)
-	e.SetIndent("", "    ")
+	e.SetIndent("", "  ")
 	err = e.Encode(ruleSet)
 	if err != nil {
 		panic(err)
